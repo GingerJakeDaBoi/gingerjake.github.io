@@ -7,6 +7,7 @@ source "http://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+gem "github-pages", "~> 227", group: :jekyll_plugins
 
 gem "jekyll"
 gem "rack"
@@ -15,7 +16,7 @@ gem "rack"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed"
+  gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-admin', "0.9.0"
 end
 
