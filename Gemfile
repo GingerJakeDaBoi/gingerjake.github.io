@@ -9,7 +9,6 @@ source "http://rubygems.org"
 # Happy Jekylling!
 gem "github-pages", "~> 227", group: :jekyll_plugins
 
-gem "jekyll"
 gem "rack"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
