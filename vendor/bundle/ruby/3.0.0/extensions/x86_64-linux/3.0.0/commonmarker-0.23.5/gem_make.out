@@ -1,5 +1,5 @@
 current directory: /home/gingerjake/Documents/Git Repos/gingerjake.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.5/ext/commonmarker
-/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20220903-28160-f1da1u.rb extconf.rb
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20220903-60594-ey6eq9.rb extconf.rb
 creating Makefile
 
 current directory: /home/gingerjake/Documents/Git Repos/gingerjake.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.5/ext/commonmarker
@@ -59,4 +59,4 @@ linking shared-object commonmarker/commonmarker.so
 
 current directory: /home/gingerjake/Documents/Git Repos/gingerjake.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.23.5/ext/commonmarker
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20220903-28160-vers5y/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20220903-60594-ur074u/commonmarker
