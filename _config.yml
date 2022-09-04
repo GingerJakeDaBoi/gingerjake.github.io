@@ -23,7 +23,7 @@ github_username:  gingerjakedaboi
 
 # Build settings
 markdown: kramdown
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: thedevslot/WhatATheme
 plugins:
   - jekyll-feed
 
