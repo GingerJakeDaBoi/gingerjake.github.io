@@ -109,7 +109,7 @@ checked program was:
 /* end */
 
 "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-RodkHa/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lruby-3.0  -lm   -lc"
-/usr/bin/ld: /tmp/ccli8ADi.o: in function `t':
+/usr/bin/ld: /tmp/ccbUIGJ9.o: in function `t':
 /home/gingerjake/Documents/Git Repos/gingerjake.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/conftest.c:15: undefined reference to `rb_thread_blocking_region'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -273,7 +273,7 @@ checked program was:
 /* end */
 
 "x86_64-linux-gnu-gcc -o conftest -I/usr/include/x86_64-linux-gnu/ruby-3.0.0 -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I. -Wdate-time -D_FORTIFY_SOURCE=2   -g -O2 -ffile-prefix-map=/build/ruby3.0-RodkHa/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC conftest.c  -L. -L/usr/lib/x86_64-linux-gnu -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lruby-3.0  -lm   -lc"
-/usr/bin/ld: /tmp/ccW35u8Z.o: in function `t':
+/usr/bin/ld: /tmp/ccNRuMvM.o: in function `t':
 /home/gingerjake/Documents/Git Repos/gingerjake.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/conftest.c:15: undefined reference to `rb_enable_interrupt'
 collect2: error: ld returned 1 exit status
 checked program was:
