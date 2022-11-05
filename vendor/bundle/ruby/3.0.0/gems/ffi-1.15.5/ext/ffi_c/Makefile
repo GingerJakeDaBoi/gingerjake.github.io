@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(rubysitearchprefix)/vendor_ruby/$(ruby_version)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20220903-92964-4ivdqr
-sitelibdir = $(DESTDIR)./.gem.20220903-92964-4ivdqr
+sitearchdir = $(DESTDIR)./.gem.20221105-11500-5r05l6
+sitelibdir = $(DESTDIR)./.gem.20221105-11500-5r05l6
 sitedir = $(DESTDIR)/usr/local/lib/site_ruby
 rubyarchdir = $(rubyarchprefix)/$(ruby_version)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -84,12 +84,12 @@ debugflags = -ggdb3
 warnflags = 
 cppflags = 
 CCDLFLAGS = -fPIC
-CFLAGS   = $(CCDLFLAGS) -g -O2 -ffile-prefix-map=/build/ruby3.0-RodkHa/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC $(ARCH_FLAG)
+CFLAGS   = $(CCDLFLAGS) -g -O2 -ffile-prefix-map=/build/ruby3.0-xkhewq/ruby3.0-3.0.4=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
 CPPFLAGS = -DRUBY_EXTCONF_H=\"$(RUBY_EXTCONF_H)\" -Wdate-time -D_FORTIFY_SOURCE=2 $(DEFS) $(cppflags)
-CXXFLAGS = $(CCDLFLAGS) -g -O2 -ffile-prefix-map=/build/ruby3.0-RodkHa/ruby3.0-3.0.2=. -fstack-protector-strong -Wformat -Werror=format-security $(ARCH_FLAG)
-ldflags  = -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -pthread
+CXXFLAGS = $(CCDLFLAGS) -g -O2 -ffile-prefix-map=/build/ruby3.0-xkhewq/ruby3.0-3.0.4=. -fstack-protector-strong -Wformat -Werror=format-security $(ARCH_FLAG)
+ldflags  = -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed -pthread
 dldflags = -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now 
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
